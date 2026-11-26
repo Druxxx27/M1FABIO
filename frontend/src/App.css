@@ -1,0 +1,101 @@
+
+form input{
+
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  width: 200%;
+  transition: all 0.5s ease;
+}
+form input:focus, form input:focus-visible{
+  border: 2px solid #2fec00;
+  border-radius: 8px;
+  outline: none;
+  transition: all 1s ease;
+}
+
+form button{
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #101310;
+  color: white;
+  transition: all 1s ease;
+}
+form button:hover{
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #63c266;
+  color: white;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+form{
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  width: 30%;
+  height: 410px;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+li{
+  display: flex;
+  flex-direction: column;
+  background-color: #3f0363;
+  border-radius: 10px;
+  border: 2px solid white;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  height: 100px;
+
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+.Busca input{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  scale: 1.5;
+  transition: all 1s ease;
+}
+.Busca{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Busca input:focus, form input:focus-visible{
+  border: 2px solid #2fec00;
+  border-radius: 8px;
+  outline: none;
+  transition: all 1s ease;
+}
